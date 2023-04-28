@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #0D0D0D;
+@layer base {
+  body {
+    @apply bg-black-300;
+    
+  }
+
+  p, h1, h1, h3, h4, h5 {
+    @apply text-white-300;
+  }
 }

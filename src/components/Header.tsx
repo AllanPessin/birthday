@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   const navLi: { name: string, url: string }[] = [
     {
-      name: 'Drielle',
+      name: 'Início',
       url: '/',
     },
     {
@@ -20,9 +20,8 @@ export default function Header() {
     setIsOpenMenu(!isOpenMenu)
   }
 
-
   return (
-    <header className="w-full p-8">
+    <header className="w-full p-8 shadow shadow-red-400">
       <section className="flex justify-between items-center">
         <Link to={'/'} className="flex items-center gap-2">
           <BsFillHeartFill size={'4rem'} color="#D63615" />
@@ -52,20 +51,5 @@ export default function Header() {
         </nav>
       </section>
     </header>
-
-    //     <nav className="w-[35%]">
-    //       <ul className="hidden sm:flex sm:justify-evenly sm:items-center">
-    //         {showBars && <FaBars />}            
-    //         {navLi.map((li, index) => (
-    //           // TODO: adicionar link para paginas
-    //           <li key={index}
-    //             className="p-3 color border border-white-300 rounded text-white-300 h-auto text-center font-bold">
-    //             {li.name}
-    //           </li>
-    //         ))}
-    //       </ul>
-    //     </nav>
-    //   </section>
-    // </header>
   )
 }
