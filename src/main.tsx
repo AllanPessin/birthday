@@ -5,6 +5,7 @@ import App from './App'
 import './styles/global.css'
 import Home from './pages/Home'
 import Aniversary from './pages/Aniversary'
+import Love from './pages/Love'
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/happy-birthday",
+        path: "/feliz-aniversario",
         element: <Aniversary/>
+      },
+      {
+        path: "/eu-te-amo",
+        element: <Love />,
       }
     ],
   },

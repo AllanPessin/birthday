@@ -11,7 +11,11 @@ export default function Header() {
     },
     {
       name: 'Feliz Aniversário',
-      url: '/happy-birthday',
+      url: '/feliz-aniversario',
+    },
+    {
+      name: 'Eu te amo',
+      url: '/eu-te-amo',
     },
   ]
 
