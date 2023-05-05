@@ -8,7 +8,7 @@ export default function Aniversary() {
     <>
       <Header />
       <div className="p-4 py-8 text-justify lg:w-[45%] lg:m-auto">
-        <p className="text-white-300 text-lg mb-4">Parabéns, meu amor </p>
+        <p className="text-white-300 text-lg mb-4">Parabéns, meu amor.</p>
         <p className="text-white-300 text-lg mb-4">
           Não tem presente no mundo suficiente para te dar,
           que mostre o quanto eu me importo com você e nem o tanto que você merece,
@@ -28,8 +28,8 @@ export default function Aniversary() {
           Você é incrível, nunca se esqueça disso.
         </p>
         <p className="text-white-300 text-lg mb-4">
-          Feliz aniversário
-          <h2 className="flex items-center justify-end">
+          Feliz aniversário!
+          <h2 className="flex items-center justify-end text-xl mb-24">
             Eu te amo <FaHeart size={'2rem'} className="mx-4" />
           </h2>
         </p>
