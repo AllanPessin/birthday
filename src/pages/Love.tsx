@@ -16,12 +16,14 @@ export default function Love() {
             <b>Eu te amo, Drielle</b><br />
             <b>Eu te amo, Drielle</b><br />
             <b>Eu te amo, Drielle</b><br />
-            
+
           </h1>
-          <Link to={'/feliz-aniversario'} className="flex flex-row text-white-300 items-center gap-2 ease-in-out duration-300 hover:text-red-300">
-            Mas não para por aqui
-            <BsArrowRight size={'2rem'} />
-          </Link>
+          <div className="flex justify-center text-white-300 text-lg font-semibold">
+            <Link to={'/feliz-aniversario'} className="flex flex-row items-center gap-2 ease-in-out duration-300 hover:text-red-300">
+              Mas não para por aqui
+              <BsArrowRight size={'2rem'} />
+            </Link>
+          </div>
         </div>
       </article>
       <Footer />
